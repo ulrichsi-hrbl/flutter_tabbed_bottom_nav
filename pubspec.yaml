@@ -24,6 +24,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_riverpod: ^2.4.8
+  onboarding_module:
+    git:
+      url: https://github.com/ulrichsi-hrbl/onboarding_poc
+      ref: main
+      path: packages/onboarding_module/
+
+  authenticate:
+    git:
+      url: https://github.com/ulrichsi-hrbl/auth_module
+      ref: main
+      path: packages/authenticate/
 
 dev_dependencies:
   flutter_test:

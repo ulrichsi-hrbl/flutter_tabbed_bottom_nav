@@ -1,3 +1,4 @@
+import 'package:authenticate/authenticate.dart';
 import 'package:flutter/material.dart';
 
 class LoginContainer extends StatelessWidget {
@@ -5,8 +6,8 @@ class LoginContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Login Container'),
+    return const Scaffold(
+      body: Authenticate(),
     );
   }
 }
