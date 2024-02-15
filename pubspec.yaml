@@ -36,6 +36,12 @@ dependencies:
       ref: main
       path: packages/authenticate/
 
+  search_user:
+    git:
+      url: https://github.com/ulrichsi-hrbl/flutter_club_search
+      ref: main
+      path: packages/search_user
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
